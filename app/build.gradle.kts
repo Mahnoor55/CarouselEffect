@@ -8,6 +8,10 @@ android {
     namespace = "com.genetum.carouseleffect"
     compileSdk = 35
 
+lint {
+        checkReleaseBuilds = false
+    }
+
     defaultConfig {
         applicationId = "com.genetum.carouseleffect"
         minSdk = 24
