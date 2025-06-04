@@ -52,8 +52,10 @@ val cardList = listOf(Card1, Card2, Card3, Card4, Card5, Card6)
 }
 ![Demo](effect.gif)
 <p align="center">
-  <img src="https://github.com/Mahnoor55/CarouselEffect/blob/main/effect.gif" alt="Demo"/>
+ <img src="https://github.com/Mahnoor55/CarouselEffect/blob/main/effect.gif" alt="Demo" width="400" height="300" />
 </p>
+
+
 
 
 📄 License
