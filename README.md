@@ -33,7 +33,7 @@ dependencyResolutionManagement {
 
 ###  Step 2: Add the library dependency in your app's build.gradle (or build.gradle.kts):
 ```library
-implementation 'com.github.Mahnoor55:CarouselEffect:1.0.0'
+implementation ("com.github.Mahnoor55:CarouselEffect:v1.0.7")
 ```
 
 ### Step 3: Add code to Carousel screen:
