@@ -8,8 +8,8 @@ android {
     namespace = "com.genetum.carouseleffect"
     compileSdk = 35
 
-lintOptions {
-        checkReleaseBuilds false
+lint {
+        checkReleaseBuilds = false
     }
 
     defaultConfig {
