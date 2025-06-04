@@ -35,6 +35,19 @@ android {
         jvmTarget = "17"
     }
 }
+afterEvaluate {
+    publishing {
+        publications {
+            // Creates a Maven publication called "release".
+            create<MavenPublication>("release") {
+                from(components["release"])
+                groupId = "com.github.Mahnoor55"
+                artifactId = "carousel"
+                version = "1.0.2"
+            }
+        }
+    }
+}
 
 dependencies {
     implementation(libs.androidx.core.ktx)
