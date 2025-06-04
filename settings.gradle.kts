@@ -22,4 +22,3 @@ dependencyResolutionManagement {
 rootProject.name = "Carousel Effect"
 include(":app")
 include(":carousel")
-include(":media")
