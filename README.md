@@ -22,7 +22,11 @@ dependencyResolutionManagement {
     }
 }
 
+### Step 2: Add library to your `build.gradle`:
+
 implementation 'com.github.Mahnoor55:CarouselEffect:1.0.0'
+
+### Step 3: Add code to Carousel screen:
 
 val cardList = listOf(Card1, Card2, Card3, Card4, Card5, Card6)
 
@@ -46,7 +50,11 @@ val cardList = listOf(Card1, Card2, Card3, Card4, Card5, Card6)
         }
     }
 }
-▶️ [Watch the demo video](effect.mp4)
+![Demo](effect.gif)
+<p align="center">
+  <img src="media/effect.gif"/>
+</p>
+
 
 📄 License
 MIT License. Feel free to use and contribute!
