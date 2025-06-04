@@ -43,7 +43,7 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.Mahnoor55"
                 artifactId = "carousel"
-                version = "1.0.2"
+                version = "v1.0.7"
             }
         }
     }
