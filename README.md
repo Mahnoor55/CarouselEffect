@@ -46,6 +46,7 @@ val cardList = listOf(Card1, Card2, Card3, Card4, Card5, Card6)
         }
     }
 }
+▶️ [Watch the demo video](effect.mp4)
 
 📄 License
 MIT License. Feel free to use and contribute!
